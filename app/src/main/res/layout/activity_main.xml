@@ -147,9 +147,11 @@
                 android:id="@+id/tvZero"
                 style="@style/NumberButtonStyle"
                 android:text="0"/>
-            <TextView
+            <ImageView
                 android:id="@+id/tvBack"
                 style="@style/NumberButtonStyle"
+                android:src="@drawable/backspace"
+                android:scaleType="center"
                 android:text="Back"/>
             <TextView
                 android:id="@+id/tvEquals"
